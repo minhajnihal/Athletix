@@ -9,7 +9,7 @@ const sportsCategories = [
     category: "cricket",
     tag: "Team Sports",
     subtitle: "Bats, Balls & Safety Kits",
-    image: "https://i.pinimg.com/736x/19/f1/e6/19f1e6b14c4590e4ca405f891c4ce489.jpg",
+    image: "https://i.pinimg.com/736x/39/85/0a/39850a1c7b67adf9512dfdbdf7ae76cb.jpg",
     icon: "🏏",
   },
   {

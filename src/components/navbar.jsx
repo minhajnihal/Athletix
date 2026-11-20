@@ -59,6 +59,11 @@ function Navbar() {
     { label: "Kids", path: "/sports/kids" },
   ];
 
+  // Do not render the customer navbar on admin routes
+  if (location.pathname.startsWith("/admin")) {
+    return null;
+  }
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-black/95 backdrop-blur-md">
       {/* Top Navbar */}

@@ -39,6 +39,13 @@ function Login() {
         return;
       }
 
+      if (loggedInUser.isBlocked) {
+        const msg = "Your account has been blocked by the admin. Please contact support.";
+        setError(msg);
+        toast.error(msg);
+        return;
+      }
+
       const userData = {
         id: loggedInUser.id || loggedInUser.email,
         name: loggedInUser.name,

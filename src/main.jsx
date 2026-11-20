@@ -7,6 +7,9 @@ import {
   QueryClientProvider,
 } from "@tanstack/react-query";
 
+import { Provider } from "react-redux";
+import store from "./store";
+
 import App from "./App";
 
 import { AuthProvider } from "./context/AuthContext";
@@ -19,14 +22,16 @@ const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <AuthProvider>
-        <CartProvider>
-          <WishlistProvider>
-            <App />
-          </WishlistProvider>
-        </CartProvider>
-      </AuthProvider>
-    </QueryClientProvider>
+    <Provider store={store}>
+      <QueryClientProvider client={queryClient}>
+        <AuthProvider>
+          <CartProvider>
+            <WishlistProvider>
+              <App />
+            </WishlistProvider>
+          </CartProvider>
+        </AuthProvider>
+      </QueryClientProvider>
+    </Provider>
   </React.StrictMode>
 );

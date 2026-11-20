@@ -114,7 +114,7 @@ function Footer() {
               <span className="text-red-500 font-bold">📧</span> support@athletix.com
             </p>
             <p className="flex items-center gap-2">
-              <span className="text-red-500 font-bold">📞</span> +91 98765 43210
+              <span className="text-red-500 font-bold">📞</span> +91 95671 94651
             </p>
           </div>
 

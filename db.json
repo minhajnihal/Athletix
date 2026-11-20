@@ -1,4 +1,13 @@
 {
+  "admins": [
+    {
+      "id": "1",
+      "name": "AthletiX Admin",
+      "email": "admin@athletix.com",
+      "password": "Admin@123",
+      "role": "admin"
+    }
+  ],
   "products": [
     {
       "id": "1",
@@ -2325,7 +2334,8 @@
       "name": "hari",
       "email": "hari@gmail.com",
       "phone": "9876543210",
-      "password": "123456"
+      "password": "123456",
+      "isBlocked": false
     },
     {
       "id": "Uf_33hfeNgE",
@@ -2337,7 +2347,8 @@
         "street": "ewgduwgdhugdwh",
         "city": "kozhikode",
         "pincode": "123456"
-      }
+      },
+      "isBlocked": false
     },
     {
       "id": "QAzTYLvP_N0",
@@ -2374,6 +2385,19 @@
         "city": "awper8rtu",
         "pincode": "wuwyr"
       }
+    },
+    {
+      "id": "xMYaKEhc6-M",
+      "name": "minhaj",
+      "email": "minhaj123@gamil.com",
+      "password": "556644"
+    },
+    {
+      "id": "7uMDqoK3P5Y",
+      "name": "hadee",
+      "email": "hadee@123",
+      "password": "441122",
+      "isBlocked": false
     }
   ],
   "orders": [
@@ -2412,7 +2436,7 @@
       ],
       "total": 6200,
       "paymentMethod": "Cash on Delivery",
-      "status": "Placed",
+      "status": "Delivered",
       "createdAt": "2026-11-09T09:16:55.213Z",
       "id": "T0LIeNzbmxI"
     },
@@ -2453,7 +2477,7 @@
       ],
       "total": 2950,
       "paymentMethod": "Online Payment",
-      "status": "Placed",
+      "status": "Delivered",
       "createdAt": "2026-11-09T12:00:14.836Z",
       "id": "-hwaIz5YdBY"
     },
@@ -2484,7 +2508,7 @@
       ],
       "total": 2500,
       "paymentMethod": "Cash on Delivery",
-      "status": "Placed",
+      "status": "Delivered",
       "createdAt": "2026-11-09T12:01:38.326Z",
       "id": "rRDsS4IqoeE"
     },
@@ -2535,7 +2559,7 @@
       ],
       "total": 4650,
       "paymentMethod": "Cash on Delivery",
-      "status": "Cancelled",
+      "status": "Delivered",
       "createdAt": "2026-11-10T05:21:58.987Z",
       "id": "BrRtY7A6eLM"
     },
@@ -2566,7 +2590,7 @@
       ],
       "total": 650,
       "paymentMethod": "Cash on Delivery",
-      "status": "Cancelled",
+      "status": "Delivered",
       "createdAt": "2026-11-10T09:07:44.092Z",
       "id": "RMLzDyiFLLc"
     },
@@ -2607,7 +2631,7 @@
       ],
       "total": 3000,
       "paymentMethod": "Cash on Delivery",
-      "status": "Placed",
+      "status": "Delivered",
       "createdAt": "2026-11-10T09:43:12.545Z",
       "id": "EzQ3i1DQAFM"
     },
@@ -2648,7 +2672,7 @@
       ],
       "total": 3000,
       "paymentMethod": "Cash on Delivery",
-      "status": "Cancelled",
+      "status": "Delivered",
       "createdAt": "2026-11-10T09:45:58.580Z",
       "id": "JAq2UVAAZ4Q"
     },
@@ -2679,7 +2703,7 @@
       ],
       "total": 588000,
       "paymentMethod": "Cash on Delivery",
-      "status": "Cancelled",
+      "status": "Delivered",
       "createdAt": "2026-11-17T10:34:14.874Z",
       "id": "_MuPG70eCoo"
     }
